@@ -6,11 +6,12 @@
 
 html,
 body {
-  height: 100%;
+  margin-top: 3rem;
+  max-height: 100%;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,11 +22,33 @@ body {
 header {
   display: flex;
   justify-content: center;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-title {
   margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.header-title span {
+  color: #f14106;
+}
+
+.header-description {
+  margin-top: 0.5rem;
+}
+
+.header-description a {
+  text-decoration: none;
+  color: #a63446;
 }
 
 .logo {
   max-width: 90%;
+  margin-top: 3rem;
   image-rendering: -moz-crisp-edges;
 }
 
@@ -84,11 +107,11 @@ header {
 }
 
 .create:hover {
-  box-shadow: 0 0 0 0 #ffffff;
+  box-shadow: 0 0 0 0 #262626;
 }
 
 .created {
-  color: #ffffff;
+  color: #262626;
 }
 
 .created a {
