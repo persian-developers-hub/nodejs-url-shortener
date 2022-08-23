@@ -11,7 +11,7 @@ body {
 }
 
 body {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Basic", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,7 +43,8 @@ header {
 
 .header-description a {
   text-decoration: none;
-  color: #a63446;
+  color: #0f07ff;
+  /* text-shadow: 0 1px 1px #aba7a6; */
 }
 
 .logo {
@@ -53,16 +54,18 @@ header {
 }
 
 .error {
-  background: #a63446;
+  background: #ff0026;
   padding: 0.5rem 1rem;
   color: #ffffff;
   margin-bottom: 1rem;
   text-align: center;
+  border-radius: 6px;
 }
 
 .form {
   display: flex;
   flex-direction: column;
+  width: 300px;
 }
 
 .input,
@@ -73,20 +76,20 @@ header {
 
 .input {
   font-family: inherit;
-  padding-bottom: 1rem;
+  padding: 1rem;
   background: none;
-  border: none;
   color: #262626;
-  border-bottom: 2px solid #262626;
+  border: 2px solid #989898;
+  border-radius: 6px;
   text-align: center;
   font-size: 1.25rem;
   transition: border-bottom-color 0.3s ease-in-out;
-  caret-color: #56bc58;
+  caret-color: #fc5d13;
 }
 
 .input:focus {
   outline: none;
-  border-bottom-color: #56bc58;
+  border-color: #fc5d13;
 }
 
 .input::placeholder {
@@ -98,9 +101,10 @@ header {
   cursor: pointer;
   font-family: inherit;
   font-size: 1.15rem;
-  color: #262626;
+  color: #ffffff;
   border: none;
-  background-color: #56bc58;
+  border-radius: 6px;
+  background-color: #fc5d13;
   padding: 0.75em 1.25rem;
   box-shadow: 3px 3px 0 0 #ffffff;
   transition: box-shadow 0.2s ease-in-out;
@@ -115,5 +119,9 @@ header {
 }
 
 .created a {
-  color: inherit;
+  color: #ffffff;
+  background-color: #fc5d13;
+  padding: 1rem;
+  letter-spacing: 0.1rem;
+  border-radius: 0.4rem;
 }
