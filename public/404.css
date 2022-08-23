@@ -10,17 +10,17 @@ body {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #262626;
+  background-color: #fff;
 }
 
 .not-found {
   margin: 1rem 0;
-  color: #ffffff;
+  color: #262626;
   font-size: 3rem;
   font-weight: normal;
 }
@@ -28,7 +28,7 @@ body {
 .go-home-link {
   display: flex;
   align-items: center;
-  color: #ffffff;
+  color: #262626;
   font-size: 1.5rem;
 }
 

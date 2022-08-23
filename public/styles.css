@@ -6,7 +6,7 @@
 
 html,
 body {
-  margin-top: 3rem;
+  margin-top: 2rem;
   max-height: 100%;
 }
 
@@ -16,7 +16,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #dadada;
+  background-color: #fff;
 }
 
 header {
