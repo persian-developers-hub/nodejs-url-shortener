@@ -1,0 +1,25 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Ehsan G. <ghafari.5000@gmail.com> (https://ehsanghaffarii.ir)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.1.3",
+    "express-slow-down": "^1.3.1",
+    "helmet": "^3.22.0",
+    "monk": "^7.3.0",
+    "morgan": "^1.10.0",
+    "nanoid": "^3.1.9",
+    "nodemon": "^2.0.4",
+    "yup": "^0.29.1"
+  }
+}
