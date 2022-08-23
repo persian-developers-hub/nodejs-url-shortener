@@ -32,6 +32,7 @@ const schema = yup.object().shape({
   url: yup.string().trim().url().required(),
 });
 
+// TODO: make this better
 app.get("/:id", async (req, res, next) => {
   const { id: slug } = req.params;
   try {
@@ -45,6 +46,7 @@ app.get("/:id", async (req, res, next) => {
   }
 });
 
+// TODO: Improve performance
 app.post(
   "/url",
   slowDown({

@@ -1,14 +1,20 @@
 {
-  "name": "url-shortener",
+  "name": "nodejs-url-shortener",
   "version": "1.0.0",
-  "description": "",
-  "author": "Ehsan G. <ghafari.5000@gmail.com> (https://ehsanghaffarii.ir)",
+  "description": "Thsi is a simple url-shortener with Nodejs, Expressjs, Mongodb and Vue",
+  "author": "Ehsan Ghaffar. <ghafari.5000@gmail.com> (https://ehsanghaffarii.ir)",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongoose",
+    "vue",
+    "url-shortener"
+  ],
   "license": "MIT",
   "dependencies": {
     "dotenv": "^8.2.0",

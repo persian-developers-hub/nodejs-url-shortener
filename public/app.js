@@ -1,3 +1,7 @@
+/**
+ * Vue app component
+ * Copyright (c) 2022 Ehsanghaffar
+ */
 const app = new Vue({
   el: "#app",
   data: {
