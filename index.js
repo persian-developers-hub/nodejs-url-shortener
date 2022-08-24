@@ -33,6 +33,7 @@ const schema = yup.object().shape({
 });
 
 // TODO: make this better
+
 app.get("/:id", async (req, res, next) => {
   const { id: slug } = req.params;
   try {
