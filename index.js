@@ -2,8 +2,11 @@ const path = require("path");
 const express = require("express");
 const morgan = require("morgan");
 const helmet = require("helmet");
+// schema builder for parsing
 const yup = require("yup");
+// mongodb orm
 const monk = require("monk");
+// limit for requests
 const rateLimit = require("express-rate-limit");
 const slowDown = require("express-slow-down");
 const { nanoid } = require("nanoid");
