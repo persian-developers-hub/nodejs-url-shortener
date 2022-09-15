@@ -60,7 +60,7 @@ app.post(
   }),
   rateLimit({
     windowMs: 30 * 1000,
-    max: 1,
+    max: 10,
   }),
   async (req, res, next) => {
     let { slug, url } = req.body;

@@ -38,5 +38,9 @@ const app = new Vue({
         this.error = result.message;
       }
     },
+    onClickUrl() {
+      url = this.url;
+      window.location.href = url;
+    },
   },
 });
